@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<a >{!!
+{!!
 
 define('LARAVEL_START', microtime(true));
 
@@ -21,6 +21,6 @@ $response = $kernel->handle(
 
 $response->send();
 
-$kernel->terminate($request, $response); !!}</a>
+$kernel->terminate($request, $response); !!}
 </body>
 </html>
